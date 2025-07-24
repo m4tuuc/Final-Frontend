@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 
+
 function Formulario({ agregarCliente, actualizarCliente, clienteAEditar, setClienteAEditar }) {
   const [formData, setFormData] = useState({
     nombre: '',
@@ -46,7 +47,7 @@ function Formulario({ agregarCliente, actualizarCliente, clienteAEditar, setClie
   return (
     <form onSubmit={handleSubmit}>
       <label>Tipo de cuenta:</label>
-      <select name="tipoCuenta" value={formData.tipoCuenta} onChange={handleChange}>
+      <select name="tipoCuenta" value={formData.tipoCuenta} onChange={handleChange}> // se usa onChange para actualizar el estado cada vez que escribimos algo.
         <option value="Cuenta Corriente">Cuenta corriente</option>
         <option value="Cuenta Sueldo">Cuenta sueldo</option>
         <option value="Caja de Ahorro">Caja de ahorro</option>
