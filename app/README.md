@@ -1,12 +1,17 @@
-# React + Vite
+# Trabajo final de la materia Frontend.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Alumnos: Mathias Gomez, Maximo Norry, Nicolas Lorca
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Nuestro proyecto se basa en la interfaz para un banco
 
-## Expanding the ESLint configuration
+![banco](https://i.imgur.com/9dI1ekD.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+_Tecnilogias usadas y personas a cargo_
+
+| Dev  | Tecnologia |
+| ------------- | ------------- |
+| Mathias Gomez  | ReactJS  |
+| Maximo Norry  | JavaScript  |
+| Nicolas Lorca | HTML / CSS  |
