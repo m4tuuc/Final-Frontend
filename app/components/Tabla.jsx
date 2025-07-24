@@ -14,7 +14,7 @@ function Tabla({ clientes, setClienteAEditar, eliminarCliente }) {
       </thead>
       <tbody>
         {clientes.length > 0 ? (
-          clientes.map((cliente) => (
+          clientes.map((cliente) => (   //crea una fila por cada cliente en la lista
             <tr key={cliente.id}>
               <td>{cliente.nombre}</td>
               <td>{cliente.cuit}</td>
