@@ -15,3 +15,6 @@ _Tecnilogias usadas y personas a cargo_
 | Mathias Gomez  | ReactJS  |
 | Maximo Norry  | JavaScript  |
 | Nicolas Lorca | HTML / CSS  |
+
+
+---
